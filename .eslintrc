@@ -1,0 +1,48 @@
+{
+   "root": true,
+   "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+   },
+   "parser": "@typescript-eslint/parser",
+   "plugins": [
+    "@typescript-eslint"
+   ],
+   "extends": ["prettier", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+   "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+   },
+   "rules": {
+    "@typescript-eslint/explicit-member-accessibility": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/no-parameter-properties": 0,
+    "@typescript-eslint/interface-name-prefix": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "@typescript-eslint/ban-ts-comment": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          "argsIgnorePattern": "^_",
+          "varsIgnorePattern": "^_"
+        }
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
+    ],
+    "space-before-function-paren": "off"
+   }
+}
