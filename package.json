@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "log": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "log": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "commit": "czg"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.35.1",
